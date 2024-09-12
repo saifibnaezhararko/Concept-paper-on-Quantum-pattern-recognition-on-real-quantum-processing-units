@@ -1,0 +1,6 @@
+The **destructive swap test** is a variant of the traditional swap test used in quantum computing to measure the similarity 
+(overlap) between two quantum states. Unlike the standard swap test, it does not require an auxiliary qubit and uses fewer 
+quantum gates, which reduces the noise in the system. The destructive swap test performs a series of measurements on all 
+the qubits involved, destroying the superposition in the process, hence the term "destructive."
+This test is especially useful for improving performance on noisy quantum devices, such as Noisy Intermediate-Scale Quantum 
+(NISQ) processors, where gate noise can degrade the accuracy of computations.
